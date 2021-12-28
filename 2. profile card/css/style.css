@@ -1,0 +1,59 @@
+body {
+    background: #eee;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+article.card {
+    margin: 100px auto;
+    width: 280px;
+    height: 400px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    color: rgba(59, 28, 28, 0.4);
+    padding: 15px;
+}
+
+.card img.close {
+    width: 6%;
+    margin-left: auto;
+    margin-bottom: auto;
+    opacity: .4;
+}
+
+.card img.profile {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.card h1 {
+    font-size: 22px;
+    color: rgba(0, 0, 0, .8);
+    margin: 15px 0 15px 0;
+}
+
+.card p {
+    margin: 0;
+    padding: 0;
+}
+
+.card a {
+    text-decoration: none;
+    width: calc(100% - 3rem);
+    padding: 1rem;
+    background: rgba(0, 0, 0, .8);
+    color: #eee;
+    text-align: center;
+    margin: 10px 25px;
+    margin-top: auto;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.card a:hover {
+    background: rgba(0, 0, 0, 1);
+}

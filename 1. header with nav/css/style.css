@@ -1,0 +1,39 @@
+body {
+    background: #eee;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-header {
+    background: #fff;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav {
+    width: 60%;
+}
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.main-nav a:hover {
+    color: #eee;
+}

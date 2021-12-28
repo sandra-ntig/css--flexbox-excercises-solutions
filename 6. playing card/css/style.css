@@ -1,0 +1,46 @@
+body {
+    background: rgb(212, 212, 212);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+article.card {
+    width: 260px;
+    height: 400px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    border: 8px solid white;
+    background: #f7f7f7;
+    color: rgb(206, 56, 56);
+    box-shadow: 0 0 32px rgba(0, 0, 0, .1);
+}
+
+.card aside {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card aside span {
+    color: #666;
+}
+
+.card aside.top {
+    margin: 8px auto auto 8px;
+}
+
+.card aside.bottom {
+    transform: rotate(180deg);
+    margin: auto 8px 8px auto;
+}
